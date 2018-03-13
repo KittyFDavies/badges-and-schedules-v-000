@@ -3,11 +3,12 @@ def badge_maker(name)
   "Hello, my name is #{name}."
 end
 
-def batch_badge_creator(name_array)
-  new_array = []
-  name_array.each_with_index { |name, index|
-    room = index + 1
-    new_array << "Hello, #{name}! You'll be assigned to room #{room}!"
-  }
-  return new_array
+def batch_badge_creator(name)
+    "Hello, my name is #{name}."
 end
+
+
+
+#new_array = []
+#name_array.each_with_index { |name, index|
+#  room = index + 1
