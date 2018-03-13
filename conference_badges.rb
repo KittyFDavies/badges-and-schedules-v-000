@@ -19,7 +19,7 @@ def assign_rooms(attendees)
   return new_array
 end
 
-def printer(assign_rooms(attendees))
+def printer(attendees)
   assign_rooms(attendees).each { |badge|
     puts badge
   }
