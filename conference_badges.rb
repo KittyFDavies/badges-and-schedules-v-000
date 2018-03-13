@@ -5,5 +5,5 @@ def batch_badge_creator(name_array)
     room = index + 1
     new_array << "Hello, #{name}! You'll be assigned to room #{room}!"
   }
-  
+  return new_array
 end
