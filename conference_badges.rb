@@ -19,8 +19,8 @@ def assign_rooms(attendees)
   return new_array
 end
 
-def printer(attendees)
-  attendees.each { |name|
-    puts "Hello, my name is #{name}."
+def printer(assign_rooms(attendees))
+  assign_rooms(attendees).each { |badge|
+    puts badge
   }
 end
