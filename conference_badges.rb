@@ -16,6 +16,7 @@ def assign_rooms(attendees)
   attendees.each_with_index {|name, room|
     new_array << "Hello, #{name}! You'll be assigned to room #{room + 1}!"
   }
+  puts new_array
   return new_array
 end
 
